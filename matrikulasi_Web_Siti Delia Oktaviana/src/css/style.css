@@ -1,0 +1,170 @@
+/* ====== GLOBAL STYLE ====== */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #d5a15e;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #804d3b;
+  color: #f3c77b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  border-radius: 0 0 40px 40px;
+}
+
+header h1 {
+  font-size: 20px;
+  margin: 0;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  padding: 50px;
+  color: #4a2c24;
+}
+
+/* ====== HOME PAGE ====== */
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.home img {
+  width: 250px;
+  height: 250px;
+  border: 6px solid #7a3b2e;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.text{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.home-text {
+  max-width: 500px;
+}
+
+.home-text h2 {
+  color: #7a3b2e;
+}
+
+/* ====== ABOUT PAGE ====== */
+.about {
+  max-width: 800px;
+  text-align: left;
+  margin-left: 100px;
+}
+
+.about-text{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* ====== WORKS PAGE ====== */
+.works {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+
+}
+
+.works img {
+  width: 350px;
+  height: 300px;
+  border-radius: 15px;
+}
+
+.works-text {
+  max-width: 500px;
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* ====== SKILLS PAGE ====== */
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.skill-row {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+
+.skill-box {
+  background-color: #804d3b;
+  color: #f3c77b;
+  padding: 30px;
+  width: 220px;
+  text-align: center;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* ====== CONTACT PAGE ====== */
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.contact img {
+  width: 30px;
+  height: 30px;
+}
+
+.contact-item{
+    width: 200px;
+    height: 200px;
+    align-items: center;
+}
+
+.social-box {
+  background-color: #804d3b;
+  color: white;
+  padding: 30px;
+  border-radius: 15px;
+  width: 500px;
+  height: auto;
+}
+
+.social-box h2 {
+  color: #f3c77b;
+}
+
+.social-box p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+footer {
+  text-align: left;
+  padding: 20px;
+  font-size: 14px;
+  color: black;
+}
